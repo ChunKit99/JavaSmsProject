@@ -8,6 +8,7 @@ public class StockManagement {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("\n1. View stock\r\n" + "2. Add stock\r\n" + "3. Deduct stock\r\n"
 				+ "4. Discontinue a product\r\n" + "0. Exit\r\n" + "Please enter a menu option:");
+                System.out.println("New promt");
 		int choice = sc.nextInt();
 		return choice;
 	}
