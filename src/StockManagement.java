@@ -13,7 +13,8 @@ public class StockManagement {
 	}
 
 	public static void viewStock(Product[] userProduct) {
-		for (int i = 0; i < userProduct.length; i++) {
+            System.out.println("View Stock Menu");
+            for (int i = 0; i < userProduct.length; i++) {
 			System.out.println("\nIndex of Array : " + i);
 			System.out.println(userProduct[i]);
 		}
