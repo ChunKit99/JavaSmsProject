@@ -20,6 +20,7 @@ public class StockManagement {
 	}
 
 	public static void addStock(Product[] product) {
+		System.out.println("Add Stock Menu");
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Index to add?: ");
 		int index = sc.nextInt();
