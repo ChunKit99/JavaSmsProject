@@ -5,7 +5,9 @@ import java.util.Scanner;
 public class StockManagement {
 
 	public static int menuStock() {
+            
 		Scanner sc = new Scanner(System.in);
+                System.out.println("menu stock");
 		System.out.println("\n1. View stock\r\n" + "2. Add stock\r\n" + "3. Deduct stock\r\n"
 				+ "4. Discontinue a product\r\n" + "0. Exit\r\n" + "Please enter a menu option:"); 
 		int choice = sc.nextInt();
