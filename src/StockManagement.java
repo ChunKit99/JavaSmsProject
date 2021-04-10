@@ -35,6 +35,7 @@ public class StockManagement {
 
 	public static void deductStock(Product[] product) {
 		Scanner sc = new Scanner(System.in);
+		System.out.print("deduct stock");
 		System.out.print("Index to deduct?: ");
 		int index = sc.nextInt();
 		System.out.println("Current Quantity available :" + product[index].getQuantityAvailable());
