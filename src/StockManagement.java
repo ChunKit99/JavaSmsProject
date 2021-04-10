@@ -13,7 +13,6 @@ public class StockManagement {
 	}
 
 	public static void viewStock(Product[] userProduct) {
-            System.out.println("View Stock Menu");
             for (int i = 0; i < userProduct.length; i++) {
 			System.out.println("\nIndex of Array : " + i);
 			System.out.println(userProduct[i]);
@@ -21,7 +20,6 @@ public class StockManagement {
 	}
 
 	public static void addStock(Product[] product) {
-		System.out.println("Add Stock Menu");
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Index to add?: ");
 		int index = sc.nextInt();
