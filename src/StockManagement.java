@@ -7,7 +7,7 @@ public class StockManagement {
 	public static int menuStock() {
             
 		Scanner sc = new Scanner(System.in);
-                System.out.println("menu stock");
+                System.out.println("Menu stock");
 		System.out.println("\n1. View stock\r\n" + "2. Add stock\r\n" + "3. Deduct stock\r\n"
 				+ "4. Discontinue a product\r\n" + "0. Exit\r\n" + "Please enter a menu option:"); 
 		int choice = sc.nextInt();
@@ -15,7 +15,7 @@ public class StockManagement {
 	}
 
 	public static void viewStock(Product[] userProduct) {
-            System.out.println("HAHAHAHAHA");
+            System.out.println("View Stock");
             for (int i = 0; i < userProduct.length; i++) {
 			System.out.println("\nIndex of Array : " + i);
 			System.out.println(userProduct[i]);
@@ -37,7 +37,7 @@ public class StockManagement {
 
 	public static void deductStock(Product[] product) {
 		Scanner sc = new Scanner(System.in);
-		System.out.print("deduct stock");
+		System.out.print("Deduct stock");
 		System.out.print("Index to deduct?: ");
 		int index = sc.nextInt();
 		System.out.println("Current Quantity available :" + product[index].getQuantityAvailable());
